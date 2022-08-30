@@ -12,7 +12,7 @@ const Dashboard = () => {
       <AdminHeader/>
       <AdminAside/>
 
-      <main id="main" class="main">
+      <main id="main1" class="main1">
         <div class="pagetitle">
           <h1 class="theme-text2">Dashboard</h1>
           <nav>

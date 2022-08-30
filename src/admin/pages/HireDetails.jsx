@@ -8,7 +8,7 @@ const HireDetails = () => {
     <>
       <AdminMain/>
 
-    <main id="main" class="main">
+    <main id="main1" class="main1">
 
 <div class="pagetitle">
   <h1 class="theme-text2">Hire Details</h1>

@@ -21,7 +21,7 @@ const OwnerPage = () => {
       {/* <!-- End Page Title --> */}
 
       <div class="card-body profile-card  d-flex flex-column align-items-center">
-          <img src="assets/img/weddingjpg" alt="Profile" />
+      <img src= {require('../../assets/img/harvester.jpeg')} alt="Profile" className='w-50 h-25'/>
         </div>
 
         <section class="section manage-users">
@@ -118,7 +118,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -150,7 +150,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -180,7 +180,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -210,7 +210,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -240,7 +240,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -270,7 +270,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -300,7 +300,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">
@@ -330,7 +330,7 @@ const OwnerPage = () => {
         <div class="card">
           <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../assets/img/harvester.jpeg')} alt="vehicle"
               class="w-100" />
             <Link to="#!">
               {/* <div class="mask">

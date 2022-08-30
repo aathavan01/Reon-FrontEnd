@@ -14,7 +14,7 @@ const VehicleAdd = () => {
         <button type="button" class="btn bg-white" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg theme-text-blue"></i></button>
       </div>
       <div class="modal-body">
-        {/* <!-- Add New User Form --> */}
+        {/* <!-- Add Vehicle Form --> */}
         <form class="row g-3 needs-validation" novalidate>
 
 
@@ -139,7 +139,7 @@ const VehicleAdd = () => {
           </div>
 
         </form>
-        {/* <!-- End Add New User Form --> */}
+        {/* <!-- End Add Vehicle Form --> */}
       </div>
     </div>
   </div>

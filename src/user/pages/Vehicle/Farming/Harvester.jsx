@@ -50,7 +50,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -82,7 +82,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -112,7 +112,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -142,7 +142,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -172,7 +172,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -202,7 +202,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -232,7 +232,7 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+            <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
             <Link to="#!">
               {/* <div className="mask">
@@ -262,9 +262,9 @@ const Harvester = () => {
         <div className="card">
           <div className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
             data-mdb-ripple-color="light">
-            <img src="assets/img/harvester.jpeg" alt='img'
+             <img src= {require('../../../../assets/img/harvester.jpeg')} alt='Havester'
               className="w-100" />
-            <Link to="#!">
+            <Link to="vehicledetails">
               {/* <div className="mask">
                 <div className="d-flex justify-content-start align-items-end h-100">
                   <h5><span className="badge bg-primary ms-2">New</span></h5>

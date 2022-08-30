@@ -13,7 +13,7 @@ const UserHeader = () => {
   
       <div className="d-flex align-items-center justify-content-between">
         <Link to="/" className="logo d-flex align-items-center">
-          <img src="../../assets/img/logo.png" alt="logo"/>
+        <img src= {require('../../assets/img/logo.png')} alt='logo'/>
           <span className="d-none d-lg-block">RE<span>O</span>N </span>
         </Link>
       </div>
@@ -31,9 +31,9 @@ const UserHeader = () => {
   
           <li className="nav-item dropdown pe-3">
   
-            <a className="nav-link nav-profile d-flex align-items-center pe-0" href="/" data-bs-toggle="dropdown">
-              <img src="assets/img/AATHAV.png" alt="Profile" className="rounded-circle"/>
-            </a>
+            <Link className="nav-link nav-profile d-flex align-items-center pe-0" to="/" data-bs-toggle="dropdown">
+            <img src= {require('../../assets/img/AATHAV.png')} alt='logo' className='rounded-circle'/>
+            </Link>
   
             <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
               <li>
@@ -42,17 +42,17 @@ const UserHeader = () => {
   
   
               <li>
-                <a className="dropdown-item d-flex align-items-center" href="/">
+                <Link className="dropdown-item d-flex align-items-center" to="/">
                   <i className="bi bi-box-arrow-right"></i>
                   <span>Sign Out</span>
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a className="dropdown-item d-flex align-items-center" href="/OwnerPage">
+                <Link className="dropdown-item d-flex align-items-center" to="/OwnerPage">
                 <i class="bi bi-person"></i>
                   <span> My Page</span>
-                  </a>
+                  </Link>
               </li>
   
             </ul>

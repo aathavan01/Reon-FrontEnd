@@ -91,6 +91,13 @@ form .custom-color-input:checked {
   transition: all 0.3s;
 }
 
+#main1 {
+  margin-top: 60px;
+  padding: 20px 0px;
+  transition: all 0.3s;
+}
+
+
 @media (max-width: 1199px) {
   #main {
     padding: 20px;
@@ -730,6 +737,16 @@ form .custom-color-input:checked {
     margin-right: 240px;
   }
 }
+
+@media (min-width: 1200px) {
+
+  #main1,
+  #footer {
+    margin-left: 280px;
+    margin-right:40px;
+  }
+}
+
 
 @media (max-width: 1199px) {
   .toggle-sidebar .sidebar {

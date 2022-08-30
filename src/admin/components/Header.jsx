@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const AdminHeader = () => {
   return (
@@ -7,10 +8,10 @@ const AdminHeader = () => {
   <header id="header" className="header fixed-top d-flex align-items-center">
 
     <div className="d-flex align-items-center justify-content-between">
-      <a href="/" className="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="logo"/>
+      <Link to="/" className="logo d-flex align-items-center">
+      <img src= {require('../../assets/img/logo.png')} alt='logo'/>
         <span className="d-none d-lg-block">RE<span>O</span>N Admin</span>
-      </a>
+      </Link>
       {/* <i className="bi bi-list toggle-sidebar-btn"></i> */}
     </div>
     {/* <!-- End Logo --> */}
@@ -20,16 +21,16 @@ const AdminHeader = () => {
 
         <li className="nav-item dropdown">
 
-          <a className="nav-link nav-icon" href="/" data-bs-toggle="dropdown">
+          <Link className="nav-link nav-icon" to="/" data-bs-toggle="dropdown">
             <i className="bi bi-bell theme-text-orange"></i>
             <span className="badge theme-bg-blue badge-number">4</span>
-          </a>
+          </Link>
           {/* <!-- End Notification Icon --> */}
 
           <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
             <li className="dropdown-header">
               You have 4 new notifications
-              <a href="/"><span className="badge rounded-pill theme-bg-orange p-2 ms-2">View all</span></a>
+              <Link to="/"><span className="badge rounded-pill theme-bg-orange p-2 ms-2">View all</span></Link>
             </li>
             <li>
               <hr className="dropdown-divider"/>
@@ -87,7 +88,7 @@ const AdminHeader = () => {
               <hr className="dropdown-divider"/>
             </li>
             <li className="dropdown-footer">
-              <a href="/">Show all notifications</a>
+              <Link to="/">Show all notifications</Link>
             </li>
 
           </ul>
@@ -98,65 +99,65 @@ const AdminHeader = () => {
 
         <li className="nav-item dropdown">
 
-          <a className="nav-link nav-icon" href="/" data-bs-toggle="dropdown">
+          <Link className="nav-link nav-icon" to="/" data-bs-toggle="dropdown">
             <i className="bi bi-chat-left-text theme-text-blue"></i>
             <span className="badge theme-bg-orange badge-number">3</span>
-          </a>
+          </Link>
           {/* <!-- End Messages Icon --> */}
 
           <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
             <li className="dropdown-header">
               You have 3 new messages
-              <a href="/"><span className="badge rounded-pill theme-bg-blue p-2 ms-2">View all</span></a>
+              <Link to="/"><span className="badge rounded-pill theme-bg-blue p-2 ms-2">View all</span></Link>
             </li>
             <li>
               <hr className="dropdown-divider"/>
             </li>
 
             <li className="message-item">
-              <a href="/">
+              <Link to="/">
                 <img src="assets/img/messages-1.jpg" alt="" className="rounded-circle"/>
                 <div>
                   <h4>Maria Hudson</h4>
                   <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
                   <p>4 hrs. ago</p>
                 </div>
-              </a>
+              </Link>
             </li>
             <li>
               <hr className="dropdown-divider"/>
             </li>
 
             <li className="message-item">
-              <a href="/">
+              <Link to="/">
                 <img src="assets/img/messages-2.jpg" alt="" className="rounded-circle"/>
                 <div>
                   <h4>Anna Nelson</h4>
                   <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
                   <p>6 hrs. ago</p>
                 </div>
-              </a>
+              </Link>
             </li>
             <li>
               <hr className="dropdown-divider"/>
             </li>
 
             <li className="message-item">
-              <a href="/">
+              <Link to="/">
                 <img src="assets/img/messages-3.jpg" alt="" className="rounded-circle"/>
                 <div>
                   <h4>David Muldon</h4>
                   <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
                   <p>8 hrs. ago</p>
                 </div>
-              </a>
+              </Link>
             </li>
             <li>
               <hr className="dropdown-divider"/>
             </li>
 
             <li className="dropdown-footer">
-              <a href="/">Show all messages</a>
+              <Link to="/">Show all messages</Link>
             </li>
 
           </ul>
@@ -167,10 +168,10 @@ const AdminHeader = () => {
 
         <li className="nav-item dropdown pe-3">
 
-          <a className="nav-link nav-profile d-flex align-items-center pe-0" href="/" data-bs-toggle="dropdown">
+          <Link className="nav-link nav-profile d-flex align-items-center pe-0" to="/" data-bs-toggle="dropdown">
             <img src="assets/img/super-admin-1.jpg" alt="Profile" className="rounded-circle"/>
             <span className="d-none d-md-block dropdown-toggle ps-2 theme-text-blue">Super Admin</span>
-          </a>
+          </Link>
 
           <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li className="dropdown-header">
@@ -182,20 +183,20 @@ const AdminHeader = () => {
             </li>
 
             <li>
-              <a className="dropdown-item d-flex align-items-center" href="Profile">
+              <Link className="dropdown-item d-flex align-items-center" to="Profile">
                 <i className="bi bi-person"></i>
                 <span>My Profile</span>
-              </a>
+              </Link>
             </li>
             <li>
               <hr className="dropdown-divider"/>
             </li>
 
             <li>
-              <a className="dropdown-item d-flex align-items-center" href="/">
+              <Link className="dropdown-item d-flex align-items-center" to="/">
                 <i className="bi bi-box-arrow-right"></i>
                 <span>Sign Out</span>
-              </a>
+              </Link>
             </li>
 
           </ul>
