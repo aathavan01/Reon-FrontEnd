@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../../components/Footer'
 import UserMain from '../../../UserMain'
 
 const FrontLoaders = () => {
@@ -80,6 +81,7 @@ const FrontLoaders = () => {
   </div>
     </div>
    </main>
+   <Footer/>
     </>
   )
 }

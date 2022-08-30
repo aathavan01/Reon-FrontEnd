@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import UserMain from '../UserMain'
 
 
@@ -27,6 +28,7 @@ const Vehicles = () => {
  
   </div>
    </main>
+   <Footer/>
    </>
   )
 }

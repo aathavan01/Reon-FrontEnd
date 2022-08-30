@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../../components/Footer'
 import UserMain from '../../../UserMain'
 
 const Bulldozer = () => {
@@ -82,6 +83,7 @@ const Bulldozer = () => {
   
     </div>
    </main>
+   <Footer/>
     </>
   )
 }

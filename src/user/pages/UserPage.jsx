@@ -1,16 +1,15 @@
 import React from 'react'
-import VehicleAdd from '../Popups/VehicleAdd'
-import UserMain from '../UserMain'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import UserMain from '../UserMain'
 
-const OwnerPage = () => {
+function UserProfile() {
   return (
     <>
-      <UserMain/>
-    <main id="main" className="main">
+        <UserMain/>
+        <main id="main" className="main">
         <div class="pagetitle">
-        <h1 class="theme-text2">My Page</h1>
+        <h1 class="theme-text2">MY Page</h1>
         <nav>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><Link to="/"><i class="bi bi-house-door"></i></Link></li>
@@ -36,66 +35,50 @@ const OwnerPage = () => {
             <tr>
               <th scope="col">No</th>
               <th scope="col">Name</th>
-              <th scope="col">PickUp Date</th>
-              <th scope="col">DropOff Date</th>
-              <th scope="col">Pickup Location</th>
-              <th scope="col">DropOff Location</th>
-              <th scope="col">Passengers</th>
+              <th scope="col">Details</th>
+              <th scope="col">Responce</th>
+
+
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
               <td>AATHAVAN</td>
-              <td>03 Sep 10.00</td>
-              <td>04 Sep 12.00</td>
-              <td>Jaffna</td>
-              <td>Kilinochchi</td>
-              <td>1 </td>
+
              
               <td class="d-flex align-items-center justify-content-between">
-                <Link to="user-details.html?uid=2434"><button type="button" class="btn btn-success">Details <i class="bi bi-file-person"></i></button></Link>
+                <Link to="/vehicles/harvester/id:details"><button type="button" class="btn theme-bg-blue">Details <i class="bi bi-file-person"></i></button></Link>
+                <button type="button" class="btn btn-success">Accept <i class="bi bi-check2-all"></i></button>
                 <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#maDeleteUser2434">Delete <i class="bi bi-trash"></i></button>
               </td>
             </tr>
             <tr>
               <td>2</td>
               <td>ABINATHAP</td>
-              <td>04 Sep 10.00</td>
-              <td>05 Sep 12.00</td>
-              <td>Jaffna</td>
-              <td>Mullaitheevu</td>
-              <td>2</td>
              
               <td class="d-flex align-items-center justify-content-between">
-                <Link to="user-details.html?uid=2458"><button type="button" class="btn btn-success">Details <i class="bi bi-file-person"></i></button></Link>
+                <Link to="/vehicles/harvester/id:details"><button type="button" class="btn theme-bg-blue">Details <i class="bi bi-file-person"></i></button></Link>
+                <button type="button" class="btn btn-success">Accept <i class="bi bi-check2-all"></i></button>
                 <button type="button" class="btn btn-danger">Delete <i class="bi bi-trash"></i></button>
               </td>
             </tr>
             <tr>
               <td>3</td>
               <td>Dilshan</td>
-              <td>05 Sep 10.00</td>
-              <td>06 Sep 12.00</td>
-              <td>Jaffna</td>
-              <td>Vavuniya</td>
-              <td>3</td>
               <td class="d-flex align-items-center justify-content-between">
-                <Link to="/"><button type="button" class="btn btn-success">Details <i class="bi bi-file-person"></i></button></Link>
+                <Link to="/vehicles/harvester/id:details"><button type="button" class="btn theme-bg-blue">Details <i class="bi bi-file-person"></i></button></Link>
+                <button type="button" class="btn btn-success">Accept <i class="bi bi-check2-all"></i></button>
                 <button type="button" class="btn btn-danger">Delete <i class="bi bi-trash"></i></button>
               </td>
             </tr>
             <tr>
               <td>4</td>
               <td>KATHURSHAN</td>
-              <td>06 Sep 10.00</td>
-              <td>07 Sep 12.00</td>
-              <td>Jaffna</td>
-              <td>Mannar</td>
-              <td>4</td>
               <td class="d-flex align-items-center justify-content-between">
-                <Link to="/"><button type="button" class="btn btn-success">Details <i class="bi bi-file-person"></i></button></Link>
-                <button type="button" class="btn btn-danger disabled">Delete <i class="bi bi-trash"></i></button>
+                <Link to="/vehicles/harvester/id:details"><button type="button" class="btn theme-bg-blue">Details <i class="bi bi-file-person"></i></button></Link>
+                <button type="button" class="btn btn-success">Accept <i class="bi bi-check2-all"></i></button>
+                <button type="button" class="btn btn-danger">Delete <i class="bi bi-trash"></i></button>
               </td>
             </tr>
  
@@ -110,9 +93,6 @@ const OwnerPage = () => {
 
 
 <section className='eee scroll'>
-<h3 className='text-center fw-bold'>Your Vehicles</h3>
-<h3 className='fw-bold'>Add more Vehicles For Increase Your Hiring <br/><VehicleAdd/></h3>
-  <div class="text-center container pb-5">
     <div class="row">
       <div class="col-lg-3 col-md-12 mb-1">
         <div class="card">
@@ -132,13 +112,13 @@ const OwnerPage = () => {
             </Link>
           </div>
           <div class="card-body">
-            <Link to="Vehicledetails" class="text-reset">
+            <Link to="/vehicles/harvester/id:details" class="text-reset">
               <h5 class="card-title">Harvester</h5>
             </Link>
 <button class=" btn btn-primary shadow-sm text-white  theme-bg-blue">Edit</button> <button type="button" class="btn btn-danger">Delete <i class="bi bi-trash"></i></button>
             
             {/*  */}
-            <Link to="vehicledetails" >
+            <Link to="/vehicles/harvester/id:details" >
               <p className='mt-1'>Kopay</p>
             </Link>
             {/* <h6 class="mb-3">$61.9</h6> */}
@@ -356,14 +336,12 @@ const OwnerPage = () => {
         </div>
       </div>
 
-      
-    </div>
   </div>
 </section>
 </main>
-<Footer/>
+        <Footer/>
     </>
   )
 }
 
-export default OwnerPage
+export default UserProfile

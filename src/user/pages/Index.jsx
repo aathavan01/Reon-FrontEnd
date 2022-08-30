@@ -1,6 +1,8 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import UserHeader from '../components/UserHeader'
 import JoinWithUs from '../Popups/JoinWithUs'
+
 
 
 const Index = () => {
@@ -25,8 +27,8 @@ const Index = () => {
 
             </div>
             
-            <div className='col-lg-7 card img-fluid'>
-                <img src='assets/img/Transperth_Volgren_CR228L_bodied_Volvo_B7RLE.jpg' alt='Vehicle image1' className='h-75' />
+            <div className='col-lg-7 card'>
+                <img src= {require('../../assets/img/AATHAV.png')} alt='Vehicle image1' className='h-75' />
             </div>
             
         </div>
@@ -35,7 +37,7 @@ const Index = () => {
             <div className="card mb-4 ">
             <div className="row g-0">
             <div className="col-md-4">
-            <img src="assets/img/banner-alliance_partner_640x500.jpg" className="img-fluid rounded-start" alt="Vehicle page profile"/>
+            <img src={require("../../assets/img/banner-alliance_partner_640x500.jpg")} className="img-fluid rounded-start" alt="Vehicle page profile"/>
             </div>
             <div className="col-md-8">
             <div className="card-body">
@@ -50,8 +52,10 @@ const Index = () => {
         </div>
     </div>
 </div>        
+<Footer/>
 
-    </>
+</>
+    
   )
 }
 

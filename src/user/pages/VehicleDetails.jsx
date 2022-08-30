@@ -1,5 +1,6 @@
 import React from 'react'
 import Dropdown from 'react-bootstrap/Dropdown';
+import Footer from '../components/Footer';
 import Booking from '../Popups/Booking';
 import UserMain from '../UserMain';
 
@@ -76,6 +77,7 @@ const VehicleDetails = () => {
     </div>
 </div>        
 </main>
+<Footer/>
     </>
   )
 }

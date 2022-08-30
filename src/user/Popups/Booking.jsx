@@ -72,7 +72,7 @@ const Booking = () => {
 
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button  type="submit" class="btn btn-warning theme-bg-orange theme-bg-blue">Book & pay</button>
+            <button  type="submit" class="btn btn-warning theme-bg-orange theme-bg-blue">Request</button>
           </div>
 
         </form>

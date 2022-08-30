@@ -28,7 +28,17 @@ import Bulldozer from "./user/pages/Vehicle/Constructions/Bulldozer";
 import FrontLoaders from "./user/pages/Vehicle/Constructions/FrontLoaders";
 import VehicleDetails from "./user/pages/VehicleDetails";
 import OwnerPage from "./user/OwnerPage/OwnerPage";
-
+import Dashboard from "./admin/pages/Dashboard";
+import Users from "./admin/pages/Users";
+import Pages from "./admin/pages/Pages";
+import HireBus from "./admin/pages/Hires/Bus";
+import VehiclesCar from "./admin/pages/Vehicles/Car";
+import VehiclesBus from "./admin/pages/Vehicles/Bus";
+import HireCar from "./admin/pages/Hires/Car";
+import Profile from "./admin/pages/Profile";
+import PageSetting from "./admin/pages/PageSetting";
+import PageDetails from "./admin/pages/PageDetails";
+import UserProfile from "./user/pages/UserPage";
 
 function App() {
 	return (
@@ -49,13 +59,27 @@ function App() {
 
 			<Route exact path="/vehicles/harvester/id:details" element={<VehicleDetails/>} />
 
-			{/* OwnerProfile */}
+			{/* OwnerProfile and UserProfile */}
 			<Route exact path="/ownerPage" element={<OwnerPage/>} />
-			
+			<Route exact path="/userPage" element={<UserProfile/>} />
 
 			
 
+			{/* Admin */}
+			<Route exact path="/admin/dashboard" element={<Dashboard/>} />
+			<Route exact path="/admin/users" element={<Users/>} />
+			<Route exact path="/admin/pages" element={<Pages/>} />
+			<Route exact path="/admin/vehicles-car" element={<VehiclesCar/>} />
+			<Route exact path="/admin/vehicles-bus" element={<VehiclesBus/>} />
+			<Route exact path="/admin/hires-car" element={<HireCar/>} />
+			<Route exact path="/admin/hires-bus" element={<HireBus/>} />
+			<Route exact path="/admin/profile" element={<Profile/>} />
+			<Route exact path="/admin/pageSetting" element={<PageSetting/>} />
+			<Route exact path="/admin/pageDetails" element={<PageDetails/>} />
 
+
+
+			
 
 
 		</Routes>

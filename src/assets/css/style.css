@@ -1679,3 +1679,22 @@ hr {
 .maxWidth-740px{
   max-width: 740px;
 }
+
+
+.scroll{
+  width: 960px;
+  height: 300px;
+  overflow: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color :#D3D3D3;
+}
+
+.eee {
+  background-color:  #eee;
+}

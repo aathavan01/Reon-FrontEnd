@@ -2,6 +2,7 @@ import React from 'react'
 import Booking from '../../../Popups/Booking'
 import UserMain from '../../../UserMain'
 import { Link } from 'react-router-dom'
+import Footer from '../../../components/Footer'
 
 const Harvester = () => {
   return (
@@ -294,6 +295,7 @@ const Harvester = () => {
   
     </div>
    </main>
+   <Footer/>
     </>
   )
 }

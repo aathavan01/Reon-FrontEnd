@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../../components/Footer'
 import UserMain from '../../../UserMain'
 
 
@@ -25,6 +26,7 @@ const deutzFahr = () => {
  <div className=" manage-user overflow-auto">
     </div>
     </main>
+    <Footer/>
     </>
   )
 }
