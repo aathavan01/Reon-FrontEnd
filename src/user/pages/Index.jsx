@@ -21,7 +21,7 @@ const Index = () => {
                     </div>
                     </div>
                 </div>  
-                <a href="Vehicles" class="btn btn-warning">Hire Now<i class="bi bi-arrow-right"></i></a>
+                <a href="Vehicles/harvester" class="btn btn-warning">Hire Now<i class="bi bi-arrow-right"></i></a>
 
             </div>
             
